@@ -1,4 +1,4 @@
-# SysStats
+# SyStats
 
 Small command-line tools to display simple system statistics (memory, CPU model and load) using /proc on Linux.
 
