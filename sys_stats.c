@@ -88,6 +88,7 @@ void get_cpu_info() {
             if (model) {
                 model += 2; 
                 model[strcspn(model, "\n")] = '\0';
+                printf("\n##### SyStats #####\n");
                 printf(CLR_CYAN "\n--- CPU Info ---\n" CLR_RESET);
                 printf(CLR_GREEN "Model: " CLR_RESET "%s\n", model);
             }
